@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {"command":"addItem","payload":{"itemId":1,"categoryId":2,"sellerId":2,"price":11,"quantity":2}},
+    {"command":"addItem","payload":{"itemId":2,"categoryId":2,"sellerId":2,"price":11,"quantity":2}},
+    {"command":"addItem","payload":{"itemId":3,"categoryId":1001,"sellerId":2,"price":24,"quantity":2}},
+    {"command":"addVasItemToItem","payload":{"itemId":3,"vasItemId":3242,"vasCategoryId": 3242,"vasSellerId":5003,"price":11,"quantity":2}},
+    {"command":"displayCart"}
+  ]
+}
